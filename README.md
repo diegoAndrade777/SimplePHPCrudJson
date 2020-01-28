@@ -5,3 +5,7 @@ Download Xampp at:
 https://www.apachefriends.org/download.html
 
 Start Xampp and open index.php file!
+
+Check demo at:
+https://simplephpcrud.herokuapp.com/
+
