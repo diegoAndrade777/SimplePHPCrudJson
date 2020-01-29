@@ -39,7 +39,7 @@
                 </div>
                 <div class="form-group">
                     <label>Phone</label>
-                    <input name="phone" value="<?php echo $user['phone'] ?>"
+                    <input name="phone" maxlength="12" onkeypress="formatar_mascara(this,'## ####-####')" value="<?php echo $user['phone'] ?>"
                            class="form-control  <?php echo $errors['phone'] ? 'is-invalid' : '' ?>">
                     <div class="invalid-feedback">
                         <?php echo  $errors['phone'] ?>
@@ -63,3 +63,15 @@
         </div>
     </div>
 </div>
+
+<script>
+function formatar_mascara(src, mascara) {
+	var campo = src.value.length;
+	var saida = mascara.substring(0,1);
+	var texto = mascara.substring(campo); 
+
+	if(texto.substring(0,1) != saida) {
+	src.value += texto.substring(0,1);
+	}
+}
+</script>

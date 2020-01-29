@@ -9,7 +9,7 @@ include 'partials/header.php';
 
 <div class="container">
     <p>
-        <a class="example_d" href="create.php">Create new User</a>
+        <a class="button-create" href="create.php">Create new User</a>
     </p>
 
     <table class="table">

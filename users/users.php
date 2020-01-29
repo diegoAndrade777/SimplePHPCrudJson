@@ -99,7 +99,7 @@ function validateUser($user, &$errors)
         $errors['email'] = 'This must be a valid email address';
     }
 
-    if (!filter_var($user['phone'], FILTER_VALIDATE_INT)) {
+    if (strlen($user['phone']) < 12) {
         $isValid = false;
         $errors['phone'] = 'This must be a valid phone number';
     }
