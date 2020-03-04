@@ -1,11 +1,11 @@
 # PHPSimpleCRUD
 Simple PHP CRUD application with data saved in JSON file with image upload.
 
-Download Xampp at:
+# Download Xampp at:
 https://www.apachefriends.org/download.html
 
-Start Xampp and open index.php file!
+# Start Xampp and open index.php file!
 
-Check demo at:
+# Check demo at:
 https://simplephpcrud.herokuapp.com/
 
